@@ -9,3 +9,26 @@ body {
     height: 100%;
     width: 100%;
 }
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav img {
+    height: 100px;
+    cursor: pointer;
+}
+
+nav i {
+    font-size: 40px;
+    color: #110e07;
+    cursor: pointer;
+}
