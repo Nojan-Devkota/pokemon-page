@@ -8,22 +8,34 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
+
+/*
+==================
+   Navbar Styles
+==================
+*/
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 10px 30px;
+    position: absolute;
+    width: 100%;
 }
 
 nav img {
-    height: 100px;
+    height: 80px;
     cursor: pointer;
 }
 
@@ -31,4 +43,88 @@ nav i {
     font-size: 40px;
     color: #110e07;
     cursor: pointer;
+}
+
+/*
+==================
+   Body Styles
+==================
+*/
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* left */
+
+.left {
+    height: 100%;
+    width: 60%;
+    background-color: #fcc60c;
+    padding: 0px 60px;
+}
+
+.left .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 20%;}
+
+.details h6{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.details h1{
+    padding: 0px;
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-left: -10px;
+}
+
+.details p{
+    font-size: 17px;
+    font-weight: 400;
+    width: 40%;
+    line-height: 1.5;
+}
+
+.details .page-indicator{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.details .page-indicator .line{
+    height: 2px;
+    width: 40px;
+    background-color: #110e07;
+}
+
+
+.details img{
+    height: 250px;
+    width: 250px; 
+    position: relative;
+    top: 130px;
+    left: -40px;
+    opacity: 0.3;
+     
+}
+
+
+
+.right {
+    height: 100%;
+    width: 40%;
+    background-color: #f5edd6;
 }
