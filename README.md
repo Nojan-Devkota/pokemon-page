@@ -1,6 +1,8 @@
 # Sheryians Coding School - Cohort 3.0: Assignment 1
 ## Pokémon Gen I UI Landing Page
 
+**[🚀 View Live Demo Here!](https://nojan-devkota.github.io/pokemon-page/)**
+
 ### 📝 Overview
 This project is part of **Assignment 1** for the **Sheryians Coding School Cohort 3.0**. It is a modern, responsive split-screen landing page featuring Pikachu from Pokémon Generation I. The project focuses on translating a reference design into a functional web layout using pure HTML and CSS.
 
